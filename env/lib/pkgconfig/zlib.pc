@@ -1,0 +1,13 @@
+prefix=/Users/developer/Desktop/signature-code-search/env
+exec_prefix=/Users/developer/Desktop/signature-code-search/env
+libdir=/Users/developer/Desktop/signature-code-search/env/lib
+sharedlibdir=/Users/developer/Desktop/signature-code-search/env/lib
+includedir=/Users/developer/Desktop/signature-code-search/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
